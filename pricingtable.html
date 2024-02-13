@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Landing Page</title>
+    <link rel="stylesheet" href="pricing.css">
+</head>
+<body>
+    <header>
+        <h1>Our Pricing Plans</h1>
+    </header>
+    <main>
+        <div class="currency">
+        <h2 >Currency Converter</h2>
+        <select id="currency" onchange="updatePrices()">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+             <option value="GBP">GBP</option>
+         </select>
+        </div>
+        <div class="pricing-plan">
+            <div class="plan">
+                <h2>Basic</h2>
+                <p class="price">$10/month</p>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                </ul>
+                <a href="#" class="btn">Select</a>
+            </div>
+            <div class="plan">
+                <h2>Standard</h2>
+                <p class="price">$20/month</p>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <li>Feature 4</li>
+                </ul>
+                <a href="#" class="btn">Select</a>
+            </div>
+            <div class="plan">
+                <h2>Premium</h2>
+                <p class="price">$30/month</p>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <li>Feature 4</li>
+                    <li>Feature 5</li>
+                </ul>
+                <a href="#" class="btn">Select</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pricing Landing Page</p>
+    </footer>
+    <script src="pricing.js"></script>
+</body>
+</html>
